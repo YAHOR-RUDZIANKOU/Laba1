@@ -15,7 +15,7 @@ function addList() {
         if (increment % 2 === 0) {
             li.classList.add("red");
         } else li.classList.add("green");
-        document.body.append(li);
+        document.body.append(li)
     }
 }
 addEventListener("keydown", buttonPress);
